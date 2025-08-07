@@ -1,11 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Bikroy</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bikroy</title>
+
+  <link rel="stylesheet" href="custom styles/styles.css" />
+
+  <!-- tailwind css cdn -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: "#da373d",
+          },
+        },
+      },
+    };
+  </script>
+
+  <!-- daisyUI cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- font awesome cdn -->
+  <script src="https://kit.fontawesome.com/2d41a42db0.js" crossorigin="anonymous"></script>
+
+  <!-- google font cdn-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet" />
 </head>
-<body>
-      
+
+<body class="bg-[#149777]">
+
+  <main class="max-w-screen-lg mx-auto">
+    <!-- nav section start -->
+    <section class="">
+      <div class="navbar bg-base-100 shadow-sm bg-[#149777] justify-between gap-4 items-center">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+              <li><a>Item 1</a></li>
+              <li>
+                <a>Parent</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+          <a href=""><img class="h-[55px]" src="icons/image (1).png" alt="" /></a>
+          <a href="" class="text-[14px] font-bold text-white mx-3 px-3">সকল বিজ্ঞাপন</a>
+
+          <div>
+            <button
+              class="py-2 px-3 text-white text-xs text-center border border-black border-solid rounded-md border-opacity-40">
+              English
+            </button>
+          </div>
+        </div>
+
+        <div class="navbar-end flex gap-5">
+          <div>
+            <a href="" class="flex items-center gap-3 text-white text-xs "><i
+                class="fa-solid fa-comments text-white text-base"></i>চ্যাট</a>
+
+          </div>
+
+          <div>
+            <a href="" class="flex items-center gap-3 text-white text-xs "><i
+                class="fa-solid fa-user text-base"></i></i>অ্যাকাউন্ট</a>
+
+          </div>
+
+
+          <div>
+            <button class="py-3 px-5 bg-[#ffc800] text-black  text-center border rounded-md text-[14px]">
+              ফ্রি বিজ্ঞাপন দিন
+            </button>
+          </div>
+        </div>
+    </section>
+    </div>
+    </section>
+
+    <!-- search section start -->
+    <section class="flex flex-col items-center justify-center gap-5 py-10">
+      <div >
+        <div class="bg-[#10846f] py-1 px-4 mt-2 rounded-[30px] text-white text-base">
+
+          <a href="" class="flex gap-2 items-center "><i class="fa-solid fa-location-dot"></i>সমগ্র বাংলাদেশ</a>
+        </div>
+
+      </div>
+
+      <div>
+
+        <label class="input min-w-4xl h-full p-2 rounded-[30px]
+
+">
+
+          <input type="search" class="grow pl-5 p-1" placeholder="আপনি কী খুঁজছেন?" />
+          <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <i class="fa-solid fa-magnifying-glass bg-[#ffc800] p-4 rounded-[50%]"></i>
+          </svg>
+
+        </label>
+
+      </div>
+    </section>
+
+  </main>
 </body>
+
 </html>

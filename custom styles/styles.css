@@ -1,0 +1,10 @@
+.sen-normal {
+  font-family: "Sen", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.color-primary{
+  background-color: #149777;
+}
