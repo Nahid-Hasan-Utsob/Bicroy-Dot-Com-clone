@@ -35,94 +35,332 @@
   <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet" />
 </head>
 
-<body class="bg-[#149777]">
+<body>
 
-  <main class="max-w-screen-lg mx-auto">
-    <!-- nav section start -->
-    <section class="">
-      <div class="navbar bg-base-100 shadow-sm bg-[#149777] justify-between gap-4 items-center">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-              </svg>
-            </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-              <li><a>Item 1</a></li>
-              <li>
-                <a>Parent</a>
-                <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
+  <main>
+
+    <header class="bg-[#149777]">
+
+
+      <section class="max-w-screen-lg mx-auto">
+        <!-- nav section start -->
+        <section class="">
+          <div class="navbar bg-base-100  bg-[#149777] justify-between gap-4 items-center">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                  <li><a>Item 1</a></li>
+                  <li>
+                    <a>Parent</a>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </li>
+                  <li><a>Item 3</a></li>
                 </ul>
-              </li>
-              <li><a>Item 3</a></li>
-            </ul>
+              </div>
+              <a href=""><img class="h-[55px]" src="icons/image (1).png" alt="" /></a>
+              <a href="" class="text-[14px] font-bold text-white mx-3 px-3">সকল বিজ্ঞাপন</a>
+
+              <div>
+                <button
+                  class="py-2 px-3 text-white text-xs text-center border border-black border-solid rounded-md border-opacity-40">
+                  English
+                </button>
+              </div>
+            </div>
+
+            <div class="navbar-end flex gap-5">
+              <div>
+                <a href="" class="flex items-center gap-3 text-white text-xs "><i
+                    class="fa-solid fa-comments text-white text-base"></i>চ্যাট</a>
+
+              </div>
+
+              <div>
+                <a href="" class="flex items-center gap-3 text-white text-xs "><i
+                    class="fa-solid fa-user text-base"></i></i>অ্যাকাউন্ট</a>
+
+              </div>
+
+
+              <div>
+                <button class="py-3 px-5 bg-[#ffc800] text-black  text-center border rounded-md text-[14px]">
+                  ফ্রি বিজ্ঞাপন দিন
+                </button>
+              </div>
+            </div>
+        </section>
+
+
+
+        <!-- search section start -->
+        <section class="flex flex-col items-center justify-center gap-5 py-10">
+          <div>
+            <div class="bg-[#10846f] py-1 px-4 mt-2 rounded-[30px] text-white text-base">
+
+              <a href="" class="flex gap-2 items-center "><i class="fa-solid fa-location-dot"></i>সমগ্র বাংলাদেশ</a>
+            </div>
+
           </div>
-          <a href=""><img class="h-[55px]" src="icons/image (1).png" alt="" /></a>
-          <a href="" class="text-[14px] font-bold text-white mx-3 px-3">সকল বিজ্ঞাপন</a>
 
           <div>
-            <button
-              class="py-2 px-3 text-white text-xs text-center border border-black border-solid rounded-md border-opacity-40">
-              English
-            </button>
-          </div>
-        </div>
 
-        <div class="navbar-end flex gap-5">
-          <div>
-            <a href="" class="flex items-center gap-3 text-white text-xs "><i
-                class="fa-solid fa-comments text-white text-base"></i>চ্যাট</a>
-
-          </div>
-
-          <div>
-            <a href="" class="flex items-center gap-3 text-white text-xs "><i
-                class="fa-solid fa-user text-base"></i></i>অ্যাকাউন্ট</a>
-
-          </div>
-
-
-          <div>
-            <button class="py-3 px-5 bg-[#ffc800] text-black  text-center border rounded-md text-[14px]">
-              ফ্রি বিজ্ঞাপন দিন
-            </button>
-          </div>
-        </div>
-    </section>
-    </div>
-    </section>
-
-    <!-- search section start -->
-    <section class="flex flex-col items-center justify-center gap-5 py-10">
-      <div >
-        <div class="bg-[#10846f] py-1 px-4 mt-2 rounded-[30px] text-white text-base">
-
-          <a href="" class="flex gap-2 items-center "><i class="fa-solid fa-location-dot"></i>সমগ্র বাংলাদেশ</a>
-        </div>
-
-      </div>
-
-      <div>
-
-        <label class="input min-w-4xl h-full p-2 rounded-[30px]
+            <label class="input min-w-4xl h-full p-2 rounded-[30px]
 
 ">
 
-          <input type="search" class="grow pl-5 p-1" placeholder="আপনি কী খুঁজছেন?" />
-          <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <i class="fa-solid fa-magnifying-glass bg-[#ffc800] p-4 rounded-[50%]"></i>
-          </svg>
+              <input type="search" class="grow pl-5 p-1" placeholder="আপনি কী খুঁজছেন?" />
+              <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <i class="fa-solid fa-magnifying-glass bg-[#ffc800] p-4 rounded-[50%]"></i>
+              </svg>
 
-        </label>
+            </label>
 
-      </div>
+          </div>
+        </section>
+
+
+
+      </section>
+    </header>
+
+    <!-- category section start -->
+
+    <section class="max-w-screen-lg mx-auto">
+
+      <section class="py-7">
+        <div>
+          <h1 class="text-base font-semibold mb-4 -ml-3 text-black">ক্যাটাগরি অনুযায়ী ব্রাউজ করুন</h1>
+        </div>
+
+        <!-- items category list -->
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-evenly gap-7">
+
+
+          <div class="flex gap-3 items-center py-5 px-4 ">
+            <div>
+              <img src="images/category items images/phone.png" class="h-[40px] w-[40px]" alt="">
+            </div>
+            <div class="flex flex-col gap-1 items-start">
+              <a href="" class="text-base font-medium text-[#2f3432]">মোবাইল</a>
+              <p class="text-xs text-[#2f3432]">৯৮,৪০১ টি বিজ্ঞাপন</p>
+            </div>
+          </div>
+
+          <div class="flex gap-3 items-center py-5 px-4 ">
+            <div>
+              <img src="images/category items images/lcd.png" class="h-[40px] w-[40px]" alt="">
+            </div>
+            <div class="flex flex-col gap-1 items-start">
+              <a href="" class="text-base font-medium text-[#2f3432]">ইলেকট্রনিক্স</a>
+              <p class="text-xs text-[#2f3432]">১২৩৩৪ টি বিজ্ঞাপন</p>
+            </div>
+          </div>
+
+          <div class="flex gap-3 items-center py-5 px-4 ">
+            <div>
+              <img src="images/category items images/car.png" class="h-[40px] w-[40px]" alt="">
+            </div>
+            <div class="flex flex-col gap-1 items-start">
+              <a href="" class="text-base font-medium text-[#2f3432]">যানবাহন</a>
+              <p class="text-xs text-[#2f3432]">১২২১ টি বিজ্ঞাপন</p>
+            </div>
+          </div>
+
+          <div class="flex gap-3 items-center py-5 px-4 ">
+            <div>
+              <img src="images/category items images/washing-machine.png" class="h-[40px] w-[40px]" alt="">
+            </div>
+            <div class="flex flex-col gap-1 items-start">
+              <a href="" class="text-base font-medium text-[#2f3432]">হোম এবং লিভিং</a>
+              <p class="text-xs text-[#2f3432]">৩৪৫৬ টি বিজ্ঞাপন</p>
+            </div>
+          </div>
+
+          <div class="flex gap-3 items-center py-5 px-4 ">
+            <div>
+              <img src="images/category items images/parrot.png" class="h-[40px] w-[40px]" alt="">
+            </div>
+            <div class="flex flex-col gap-1 items-start">
+              <a href="" class="text-base font-medium text-[#2f3432]">পোষা প্রাণী ও জীবজন্তু</a>
+              <p class="text-xs text-[#2f3432]">৬৭৮৯ টি বিজ্ঞাপন</p>
+            </div>
+          </div>
+
+          <div class="flex gap-3 items-center py-5 px-4 ">
+            <div>
+              <img src="images/category items images/house.png" class="h-[40px] w-[40px]" alt="">
+            </div>
+            <div class="flex flex-col gap-1 items-start">
+              <a href="" class="text-base font-medium text-[#2f3432]">প্রপার্টি</a>
+              <p class="text-xs text-[#2f3432]">৩৪৫৬ টি বিজ্ঞাপন</p>
+            </div>
+          </div>
+
+          <div class="flex gap-3 items-center py-5 px-4 ">
+            <div>
+              <img src="images/category items images/tshirt.png" class="h-[40px] w-[40px]" alt="">
+            </div>
+            <div class="flex flex-col gap-1 items-start">
+              <a href="" class="text-base font-medium text-[#2f3432]">ছেলেদের ফ্যাশন ও গ্রুমিং</a>
+              <p class="text-xs text-[#2f3432]">৫৪৩২ টি বিজ্ঞাপন</p>
+            </div>
+          </div>
+
+          <div class="flex gap-3 items-center py-5 px-4 ">
+            <div>
+              <img src="images/category items images/beach-ball.png" class="h-[40px] w-[40px]" alt="">
+            </div>
+            <div class="flex flex-col gap-1 items-start">
+              <a href="" class="text-base font-medium text-[#2f3432]">শখ, খেলাধুলা এবং শিশু</a>
+              <p class="text-xs text-[#2f3432]">৬৭৮৯ টি বিজ্ঞাপন</p>
+            </div>
+          </div>
+
+          <div class="flex gap-3 items-center py-5 px-4 ">
+            <div>
+              <img src="images/category items images/dress.png" class="h-[40px] w-[40px]" alt="">
+            </div>
+            <div class="flex flex-col gap-1 items-start">
+              <a href="" class="text-base font-medium text-[#2f3432]">মেয়েদের ফ্যাশন ও সৌন্দর্য</a>
+              <p class="text-xs text-[#2f3432]">৯৮৭৬৮ টি বিজ্ঞাপন</p>
+            </div>
+          </div>
+
+          <div class="flex gap-3 items-center py-5 px-4 ">
+            <div>
+              <img src="images/category items images/factory.png" class="h-[40px] w-[40px]" alt="">
+            </div>
+            <div class="flex flex-col gap-1 items-start">
+              <a href="" class="text-base font-medium text-[#2f3432]">ব্যবসা ও শিল্পকারখানা</a>
+              <p class="text-xs text-[#2f3432]">২৩৪৫৬ টি বিজ্ঞাপন</p>
+            </div>
+          </div>
+
+          <div class="flex gap-3 items-center py-5 px-4 ">
+            <div>
+              <img src="images/category items images/graduation.png" class="h-[40px] w-[40px]" alt="">
+            </div>
+            <div class="flex flex-col gap-1 items-start">
+              <a href="" class="text-base font-medium text-[#2f3432]">শিক্ষা</a>
+              <p class="text-xs text-[#2f3432]">১৩২১ টি বিজ্ঞাপন</p>
+            </div>
+          </div>
+
+          <div class="flex gap-3 items-center py-5 px-4 ">
+            <div>
+              <img src="images/category items images/shopping-bag.png" class="h-[40px] w-[40px]" alt="">
+            </div>
+            <div class="flex flex-col gap-1 items-start">
+              <a href="" class="text-base font-medium text-[#2f3432]">নিত্য প্রয়োজনীয় সামগ্রী</a>
+              <p class="text-xs text-[#2f3432]">১২২ টি বিজ্ঞাপন</p>
+            </div>
+          </div>
+
+          <div class="flex gap-3 items-center py-5 px-4 ">
+            <div>
+              <img src="images/category items images/job-search.png" class="h-[40px] w-[40px]" alt="">
+            </div>
+            <div class="flex flex-col gap-1 items-start">
+              <a href="" class="text-base font-medium text-[#2f3432]">চাকরি</a>
+              <p class="text-xs text-[#2f3432]">৪৫৬৭ টি বিজ্ঞাপন</p>
+            </div>
+          </div>
+
+          <div class="flex gap-3 items-center py-5 px-4 ">
+            <div>
+              <img src="images/category items images/sprout.png" class="h-[40px] w-[40px]" alt="">
+            </div>
+            <div class="flex flex-col gap-1 items-start">
+              <a href="" class="text-base font-medium text-[#2f3432]">কৃষি পণ্য</a>
+              <p class="text-xs text-[#2f3432]">১২৩৪ টি বিজ্ঞাপন</p>
+            </div>
+          </div>
+
+          <div class="flex gap-3 items-center py-5 px-4 ">
+            <div>
+              <img src="images/category items images/service.png" class="h-[40px] w-[40px]" alt="">
+            </div>
+            <div class="flex flex-col gap-1 items-start">
+              <a href="" class="text-base font-medium text-[#2f3432]">সার্ভিস</a>
+              <p class="text-xs text-[#2f3432]">৫৬৭৮৫ টি বিজ্ঞাপন</p>
+            </div>
+          </div>
+
+          <div class="flex gap-3 items-center py-5 px-4 ">
+            <div>
+              <img src="images/category items images/businessman.png" class="h-[40px] w-[40px]" alt="">
+            </div>
+            <div class="flex flex-col gap-1 items-start">
+              <a href="" class="text-base font-medium text-[#2f3432]">বিদেশে চাকরি</a>
+              <p class="text-xs text-[#2f3432]">৩৪৫ টি বিজ্ঞাপন</p>
+            </div>
+          </div>
+
+
+        </section>
+
+      </section>
+
+
+      <!-- future section start -->
+      <section>
+
+        <section class="my-5">
+          <div>
+            <h1 class="text-base font-semibold mb-4 -ml-3 text-black">ক্যাটাগরি অনুযায়ী ব্রাউজ করুন</h1>
+          </div>
+        </section>
+
+        <!-- card section start -->
+        <!-- <section>
+          <div class="carousel carousel-end rounded-box h-[270px]">
+
+            <div class="carousel-item">
+              <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78j.webp" alt="Drink" />
+            </div>
+            <div class="carousel-item">
+              <img src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp" alt="Drink" />
+            </div>
+            <div class="carousel-item">
+              <img src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp" alt="Drink" />
+            </div>
+            <div class="carousel-item">
+              <img src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp" alt="Drink" />
+            </div>
+            <div class="carousel-item">
+              <img src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp" alt="Drink" />
+            </div>
+            <div class="carousel-item">
+              <img src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp" alt="Drink" />
+            </div>
+            <div class="carousel-item">
+              <img src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp" alt="Drink" />
+            </div>
+          </div>
+        </section> -->
+
+
+
+
+      </section>
+
+
+
+
     </section>
 
+
   </main>
+
 </body>
 
 </html>
